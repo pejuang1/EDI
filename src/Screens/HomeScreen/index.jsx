@@ -121,6 +121,7 @@ const HomeScreen = () => {
             setIsModal(false)
             setIsModalEdit(false)
             handleGetUser()
+            setUserData({})
         } catch (error) {
             console.log('handleSaveEditUser', error.response);
         }
